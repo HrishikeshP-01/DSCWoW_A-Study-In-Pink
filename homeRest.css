@@ -1,0 +1,34 @@
+body {
+    font-family: "Gilroy ExtraBold", system-ui, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-kerning: normal;
+    -webkit-text-size-adjust: 100%;
+  }
+  a {
+    text-decoration:none;
+  } 
+  html,
+  body {
+    width: 100vw;
+    height: 100vh;
+    text-decoration: none;
+  }
+  
+  body {
+    background: linear-gradient(45deg, #02001F, #1F1B4E);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform: perspective(60rem);
+            transform: perspective(60rem);
+    position: fixed;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+            text-decoration: none;
+  }
+  
