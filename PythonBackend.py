@@ -35,6 +35,8 @@ def readFile():
     f=open('META.txt')
     fname=f.readline()
     fname=fname[0:len(fname)-1]
+    fname=fname.split('\\')
+    fname=fname[len(fname)-1]
     mdist=f.readline()
     mdist=mdist[0:len(mdist)-1]
     mcas=f.readline()
