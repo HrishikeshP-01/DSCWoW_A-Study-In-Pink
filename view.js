@@ -1,6 +1,16 @@
 let $=require('jquery')
+let fs = require('fs')
 
-$('#addDataset').on('click',()=>{
+
+$('#GenMap').on('click',()=>{
     let datasetName = $('#myfile').val()
-    console.log(datasetName)
+    let epsilon = $('#epsilon').val()
+    let maxDist = $('#MaxDist').val()
+
+
+fs.writeFile('META.txt',datasetName+"\n"+epsilon+"\n"+maxDist,(err)=>{
+    if(err){
+        console.log(err)
+    }
+})
 })

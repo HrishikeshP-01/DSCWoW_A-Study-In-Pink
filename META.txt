@@ -1,3 +1,0 @@
-SampleData.csv
-0.05
-8
